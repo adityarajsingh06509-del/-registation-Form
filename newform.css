@@ -1,0 +1,84 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #007bff;
+
+}
+
+/* Form container */
+form {
+    background: #5b73db;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Inputs, select, textarea */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio & checkbox alignment */
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Button */
+input[type="submit"] {
+    background: #4facfe;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #007bff;
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #0e0404;
+}
